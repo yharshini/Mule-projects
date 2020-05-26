@@ -31,7 +31,7 @@ payload map ( payload01 , indexOfPayload01 ) -> {
 }]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
-		<logger level="INFO" doc:name="Logger" doc:id="86c7c4da-c8f5-4601-8e83-ce7c33e82289" message="payload"/>
+		<logger level="INFO" doc:name="Log" doc:id="86c7c4da-c8f5-4601-8e83-ce7c33e82289" message="payload"/>
 	</flow>
 	<flow name="getAccountByID" doc:id="e40cdc63-4f49-4a3b-885e-70729f197af0" >
 		<db:select doc:name="Select" doc:id="de95df65-72e3-4a73-ab07-fa95321f3cd3" config-ref="Database_Config">
